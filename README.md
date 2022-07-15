@@ -6,3 +6,8 @@
 ```
 $ git remote add -f remote-name-here git@github.com:feardarkness/child2-multi-repo.git
 ```
+
+- Add the remote repositories (name from the previous step) to a folder in the current repository. E.g.: Adding the previous repository to the *.repos/events* folder in the *main* branch.
+```
+$ git subtree add --prefix .repos/events remote-name-here main --squash
+```
