@@ -18,4 +18,9 @@ $ git subtree add --prefix .repos/events remote-name-here main --squash
 ```
 # Updating the subtree from the *main* branch
 $ git fetch remote-name-here main
+
+# pull from the remote (*main* branch)
+$ git subtree pull --prefix .repos/events remote-name-here main --squash
 ```
+
+
