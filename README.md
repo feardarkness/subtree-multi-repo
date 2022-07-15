@@ -11,3 +11,11 @@ $ git remote add -f remote-name-here git@github.com:feardarkness/child2-multi-re
 ```
 $ git subtree add --prefix .repos/events remote-name-here main --squash
 ```
+
+## Update subtree
+
+
+```
+# Updating the subtree from the *main* branch
+$ git fetch remote-name-here main
+```
